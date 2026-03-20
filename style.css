@@ -144,6 +144,25 @@ nav {
   background: var(--green);
   animation: blink 2s infinite;
 }
+/* In style.css */
+.nav-resume-btn {
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #000;
+  background: var(--green);
+  padding: .4rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .2s;
+}
+.nav-resume-btn:hover {
+  background: var(--green2);
+  transform: translateY(-1px);
+}
+
 
 /* ── HERO ── */
 .hero {
